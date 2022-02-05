@@ -16,7 +16,8 @@
     
     
 <div class="px-4 pt-5 my-5 text-center">
-    <h1 class="display-4 fw-bold">Product {{$productId}}</h1>
+    <h1 class="display-4 fw-bold">Product {{$products['id']}}</h1>
+    <h3 class="display-4 fw-bold">${{$products['price']}}</h3>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, culpa! Optio quibusdam alias labore error quos. Quibusdam fuga exercitationem nobis animi nihil aspernatur adipisci labore quis praesentium soluta, officia dicta?

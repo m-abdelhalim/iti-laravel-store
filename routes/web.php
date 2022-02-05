@@ -21,8 +21,8 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/home', [HomeController::class, 'home']);
-// Route::get('/product-details/{id}', [ProductDetailsController::class, 'productDetails']);
-Route::get('/product-details/{id}', function($id){
-    return view('productDetails', ['productId' => $id]);
-});
+Route::get('/product-details/{id}', [ProductDetailsController::class, 'productDetails']);
+/* Route::get('/product-details/{id}', function($id){
+    return view('productDetails', ['product' => $id]);
+}); */
 Route::redirect('/', '/home');

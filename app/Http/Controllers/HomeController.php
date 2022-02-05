@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+$a=1;
 
 class HomeController extends Controller
 {
