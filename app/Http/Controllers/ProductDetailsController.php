@@ -73,7 +73,7 @@ class ProductDetailsController extends Controller
             
                 
             ];
-        return view('productDetails', ['products' => $products[$productId]]);
+        return view('productDetails', ['product' => $products[$productId-1]]);
         // return $productId;
     }
     
